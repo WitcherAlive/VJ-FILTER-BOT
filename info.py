@@ -73,7 +73,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_Town_X') # Support Chat Link W
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 VERIFY = bool(environ.get('VERIFY', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -98,7 +98,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'Valentina')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
